@@ -1,4 +1,5 @@
 from Usuario import Usuario
+
 class ClientePedido(Usuario):
     def __init__(self, nome, email, senha, cpf, endereco):
         super().__init__(nome, email, senha, cpf)
@@ -6,5 +7,6 @@ class ClientePedido(Usuario):
 
     def getEndereco(self):
         return self.endereco
+
     def setEndereco(self, endereco):
         self.endereco = endereco
