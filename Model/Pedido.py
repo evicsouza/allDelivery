@@ -1,9 +1,8 @@
 class Pedido:
     def __init__(self, idPedido, usuario, produto):
         self.idPedido = idPedido
-        self.usuario = Usuario(nome, email, senha, cpf)
-        self.produto = Produto(idProduto, categoria, descricao)
-
+        self.usuario = usuario
+        self.produto = produto
     def getIdPedido(self):
         return self.idPedido
 
