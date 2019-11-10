@@ -1,5 +1,5 @@
 from Model.Produto import Produto
-class ControllerEntregas:
+class ControllerEntrega:
     def calcula_valor_Entrega(self,KM, preco_Combustivel, distancia):
         calculo = 10 + KM*preco_Combustivel
         return calculo

@@ -1,9 +1,16 @@
 class Usuario:
-    def __init__(self, nome, email, senha, cpf):
+    def __init__(self, id, nome, email, senha, cpf):
+        self.id = id
         self.nome = nome
         self.email = email
         self.senha = senha
         self.cpf = cpf
+
+    def setId(self, id):
+        self.id = id
+
+    def getId(self):
+        return self.id
 
     def setNome(self, nome):
         self.nome = nome
